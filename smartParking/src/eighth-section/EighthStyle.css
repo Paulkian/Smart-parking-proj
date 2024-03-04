@@ -1,0 +1,29 @@
+.eighth-sec{
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 8rem;
+}
+.eighth-sec h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.eighth-sec p{
+    font-size: 0.9rem;
+}
+
+.eighth-sec .eighth-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.eighth-sec .eighth-details ul li{
+    margin: 1rem 0 1rem 0;
+    line-height: 2rem;
+    font-size: 0.9rem;
+}
+.eighth-sec .eighth-details ul li h4 img{
+    padding-right: 0.5rem;
+}
+.eighth-sec .eighth-details .eighth-details-image{
+    height: 40rem;
+}

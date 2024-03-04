@@ -1,0 +1,45 @@
+
+
+.hero-heading{
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+ 
+}
+.hero-heading .heroSsec{
+    width: 50%;
+}
+
+.hero-heading .heroSsec h1{
+    font-size: 3.2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.hero-heading .heroSsec p{
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+.hero-heading .heroSsec .getspotbtn,.learnmorebtn{
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(97, 70, 232);
+    color: white;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.hero-heading img{
+    height: 40rem;
+}
+.back-icon{
+    z-index: -1;
+    position: absolute;
+    opacity: 0.1;
+    top: -5rem;
+    left: -10rem;
+}

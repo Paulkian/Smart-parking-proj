@@ -1,0 +1,101 @@
+.sixsec{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.sixsec .six-pricingTitle{
+    margin: 7rem 0 7rem 0;
+}
+.sixsec .six-pricingTitle h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.sixsec .six-pricingTitle p{
+    font-size: 0.9rem;
+}
+
+.sixsec .sic-pricingDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step{
+    display: flex;
+    gap: 2rem
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step ul li{
+    margin-bottom: 2rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step .sic-pricingDetails-step-img{
+    display: flex;
+    flex-direction: column;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step .sic-pricingDetails-step-img img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.2rem;
+    height: 2rem;
+}
+
+.sixsec .sic-pricingDetails .sic-pricingDetails-container{
+    border: 2px solid;
+    padding: 1.5rem 1.3rem;
+    width: 36rem;
+   
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading h4{
+    font-size: 1.2rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading p{
+    font-size: 0.9rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading h1{
+    font-size: 3rem;
+}
+hr{
+    border: 1px solid;
+    margin-bottom: 0.3rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-p{
+    margin-top: 1rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details ul{
+    line-height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details li{
+    display: flex;
+    align-items: center;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details li p{
+    font-size: 0.9rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details li img{
+    padding-right: 2rem;
+    height: 1.1rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-btn button{
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: rgb(97, 70, 232);
+    color: white;
+    font-weight: 500;
+}

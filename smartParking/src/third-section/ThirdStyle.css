@@ -1,0 +1,64 @@
+.thirdSec{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    flex-direction: row-reverse;
+
+}
+
+.thirdSec img{
+    height: 28rem;
+    margin-left: -3rem;
+    padding-right: 1rem;
+}
+.thirdSec .third-details{
+    position: relative;
+    margin-left: 2rem;
+}
+.thirdSec .third-details h1{
+    font-size: 3rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+.thirdSec .third-details p{
+    font-size: 0.9rem;
+}
+.thirdSec .third-details .third-features{
+    display: flex;
+    padding-top: 3rem;
+    width: 70%;
+    gap: 6rem
+}
+.third-features .third-features1 p{
+    font-size: 0.9rem;
+    padding-top: 1rem;
+}
+.third-features .third-features2 p{
+    font-size: 0.9rem;
+    padding-top: 1rem;
+}
+.thirdSec .third-details .third-btn {
+    padding: 1rem 0;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.thirdSec .third-details .third-btn button{
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: rgb(97, 70, 232);
+    color: white;
+    font-weight: 600;
+}
+.back-icon-third{
+    position: absolute;
+    opacity: 0.1;
+    z-index: -1;
+    left: -5rem;
+    top: 75rem;
+    height: 90rem;
+}

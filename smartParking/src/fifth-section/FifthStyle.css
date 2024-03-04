@@ -1,0 +1,22 @@
+
+.fifthsec{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.fifthsec h1{
+    font-size: 3rem;
+    padding-right: 30rem;
+    margin-bottom: 1rem;
+}
+.fifthsec .fifth-btn button{
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.7rem 1rem;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(97, 70, 232);
+    color: white;
+    margin-right: 2rem;
+}

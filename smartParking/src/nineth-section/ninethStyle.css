@@ -1,0 +1,57 @@
+.ninenthSec{
+    padding-top: 10rem;
+    flex-direction: row;
+    max-width: 1400px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.ninenthSec .ninethSec-details ul{
+    display: flex;
+    justify-content: space-around;
+}
+.ninenthSec .ninethSec-details ul li{
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0rem 0 6rem;
+    width: 10rem;
+}
+.ninenthSec .ninethSec-details ul li a{
+    font-size: 0.8rem;
+}
+
+.ninenthSec .ninethSec-sub h4{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.ninenthSec .ninethSec-sub p{
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.ninenthSec .ninethSec-sub input{
+    font-size: 0.8rem;
+    margin-bottom:  0.2rem;
+    padding: 1rem 1.5rem;
+    padding-right: 7rem;
+    border: 2px solid;
+}
+.ninenthSec .ninethSec-sub button{
+    font-size: 0.8rem;
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
+    border: 2px solid;
+}
+.ninenthSec .ninethSec-sub h6{
+    font-weight: 300;
+    width: 20rem;
+    margin-top: 1rem;
+}
+.ninenthSec hr{
+    margin-top: 4rem;
+    border: 1px solid;
+}
+.ninenthSec .nineth-footer{
+    margin-top: 1.5rem;
+    font-size: 0.7rem;
+}

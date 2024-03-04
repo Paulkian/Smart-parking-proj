@@ -1,0 +1,69 @@
+
+
+.fourthSec{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 100vh;
+    margin-top: 10rem;
+
+}
+.fourth-details h1{
+    font-size: 3rem;
+}
+
+.fourth-details .fourth-btn button{
+    margin-top: 2rem;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    background-color: rgb(97, 70, 232);
+    color: white;
+    border: none;
+    font-weight: 500;
+    margin-right: 2rem
+}
+.fourthSec  .fourth-step{
+    display: flex;
+    margin-right: 3rem;
+    width: 50rem;
+}
+
+.fourthSec  .fourth-step .fourth-vertical{
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourthSec  .fourth-step .fourth-vertical img{
+    height: 2.5rem;
+}
+.fourthSec  .fourth-step .fourth-vertical .v1{
+    height: 50px;
+    width: 0;
+    border: 1px solid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.fourthSec  .fourth-step ul{
+    position: relative;
+    top: -2rem;
+}
+.fourthSec  .fourth-step li{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.fourthSec  .fourth-step li h4{
+    margin-bottom: 1rem;
+}
+.fourthSec  .fourth-step li p{
+    font-size: 0.8rem;
+}
+.fourth-background-icon img{
+    position: absolute;
+    opacity: 0.2;
+    right: -4rem;
+    top: 125rem;
+    height: 25rem;
+    z-index: -1;
+}

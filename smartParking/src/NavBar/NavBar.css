@@ -1,0 +1,135 @@
+
+.Navbar-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+}
+.Navbar-con h3{
+    color: rgb(97, 67, 232);
+}
+.Navbar-con img{
+    padding-right: 0.5rem;
+    height: 27px;
+}
+.navBar-ops{
+    display: flex;
+    align-items: center;
+}
+.navBar-ops ul{
+    display: flex;
+    padding: 0 2rem;
+
+}
+.navBar-ops ul li{
+    padding:  0 2rem;
+}
+.navBar-ops ul li a{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+}
+.navBar-btn{
+    padding: 0 1rem;
+}
+.navBar-btn .navbar-signin{
+    background-color: rgb(97, 70, 232);
+    color: white;
+    border: 2px solid rgb(53, 65, 232);
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.4rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+.navBar-btn .navbar-signup{
+    background-color: rgb(97, 70, 232);
+    color: white;
+    border: 2px solid rgb(53, 65, 232);
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.4rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    display: none;
+}
+.log-inpage{
+    display: flex;
+    flex-direction: column;
+}
+.log-inpage h1{
+    margin: auto;
+    font-size: 0.9rem;
+}
+
+.log-inpage.active{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.3s ease-in-out;
+}
+.log-inpage.inactive{
+    position: absolute;
+    visibility: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.log-inpage{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    border-radius: 0.4rem;
+}
+
+.log-inpage form .Campus{
+    display: flex;
+    flex-direction: column;
+}
+
+.log-inpage form .Campus .campus-con{
+    border: 1px solid;
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.log-inpage form .Campus .campus-con input{
+    border: none;
+    width: 100%;
+}
+.log-inpage form input:focus{
+    outline: none;
+}
+.log-inpage form .Campus label{
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+.log-inpage form .StudentID .student-con{
+    border: 1px solid;
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+}
+.log-inpage form .StudentID .student-con input{
+    border: none;
+    width: 100%;
+}
+.log-inpage form .StudentID label{
+    font-size: 0.8rem;
+}
+.log-inpage form .password .password-con{
+    border: 1px solid;
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+}
+.log-inpage form .password .password-con input{
+    border: none;
+    width: 100%;
+}
+.log-inpage form .password label{
+    font-size: 0.8rem;
+}
